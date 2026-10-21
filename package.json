@@ -1,0 +1,14 @@
+{
+  "name": "vulture5x-cloudflare",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Vulture5x website configured for Cloudflare Workers and a custom domain.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --config ./wrangler.jsonc",
+    "check": "wrangler deploy --dry-run --config ./wrangler.jsonc"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
