@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Vulture5x: Install dependencies",
+      "type": "shell",
+      "command": "npm install",
+      "problemMatcher": []
+    },
+    {
+      "label": "Vulture5x: Run locally",
+      "type": "shell",
+      "command": "npm run dev",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Vulture5x: Validate deployment",
+      "type": "shell",
+      "command": "npm run check",
+      "problemMatcher": []
+    },
+    {
+      "label": "Vulture5x: Deploy to Cloudflare",
+      "type": "shell",
+      "command": "npm run deploy",
+      "problemMatcher": []
+    }
+  ]
+}

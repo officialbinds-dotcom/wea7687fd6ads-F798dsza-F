@@ -1,0 +1,6 @@
+{
+  "recommendations": [
+    "cloudflare.cloudflare-vscode",
+    "dbaeumer.vscode-eslint"
+  ]
+}
